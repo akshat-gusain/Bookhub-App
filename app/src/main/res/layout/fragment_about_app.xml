@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment"
+    android:background="#eee9e9">
+
+    <RelativeLayout
+        android:id="@+id/lltitle"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:layout_marginTop="40dp">
+
+    <ImageView
+        android:id="@+id/imgAbout"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/book_app_icon_web"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgAbout"
+            android:text="BookHub"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:textColor="#000080"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/lltitle">
+
+        <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="About Us"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"/>
+
+
+    <TextView
+
+        android:id="@+id/txtaboutpara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAbout"
+        android:text="@string/about_para"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:fontFamily="serif" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

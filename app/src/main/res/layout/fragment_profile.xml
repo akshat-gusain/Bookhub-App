@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProfileFragment"
+    android:background="#eee9e9">
+
+<TextView
+    android:id="@+id/txtDeveloper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="About the Developer"
+    android:layout_centerHorizontal="true"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="#000080"
+    android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_below="@+id/txtDeveloper"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/prof"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtdevName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akshat Gusain"
+        android:layout_below="@+id/imgProfile"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/txtdevAbout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android App Developer"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/txtdevName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0009ff"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtdevAbout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Developer and Designer"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/txtdevAbout1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0009ff"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtdevAbout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Languages Known - C, C++, Java"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/txtdevAbout2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0009ff"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/txtdevAbout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin, JavaScript"
+        android:layout_below="@+id/txtdevAbout3"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#0009ff"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLinkedIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/purple_500"
+        android:text="@string/linkedin_profile"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

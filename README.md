@@ -28,24 +28,15 @@ http://13.235.250.119/v1/book/get_book/
  <table>
   <tr>
      <td><b>Favourites :</b></td>
-     <td><b>Profile :</b></td>
      <td><b>About App :</b></td>
   </tr>
   <tr>
    <td><img width="250" height="500" src="https://user-images.githubusercontent.com/53490141/123857752-5ad56180-d940-11eb-90e0-f772c2756c7b.jpg"></td>
-    <td><img width="250" height="500" src="https://user-images.githubusercontent.com/53490141/123859584-7477a880-d942-11eb-9545-88a86e7925d2.jpg"></td>
     <td><img width="250" height="500" src="https://user-images.githubusercontent.com/53490141/123859645-86594b80-d942-11eb-853f-0765d3895398.jpg"></td>
   </tr>
  </table>
  
- <table>
-  <tr>
-     <td><b>Navigation :</b></td>
-  </tr>
-  <tr>
-   <td><img width="250" height="500" src="https://user-images.githubusercontent.com/53490141/123861000-42ffdc80-d944-11eb-93eb-c5768df85e73.jpg"></td>
-  </tr>
- </table>
+
 
 
 
